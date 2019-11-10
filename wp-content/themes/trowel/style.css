@@ -1166,7 +1166,7 @@ a:hover {
 }
 
 .current-menu-item > a, .header_top_one .navigation ul.menu > li:hover > a {
-	color: #fbbe3f !important;
+	color: #fff !important;
 }
 
 .menu_block .menu-header li .sub-menu li a:hover,
