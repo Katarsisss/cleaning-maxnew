@@ -1256,8 +1256,8 @@ form.search .form_container .searchinput #searchsubmit {
 }
 
 section.proposition_section .proposition_container .form_side .form_container input[type="submit"] {
-	background-color: #28b2ff;
-	border-color: #28b2ff;
+	background-color: #222222;
+	border-color: #222222;
 }
 
 .ale_accordion_container .ale_accordion::after {
@@ -1451,11 +1451,11 @@ section.proposition_section .proposition_container .form_side .form_container in
 }
 
 #footer-widget-area .widget_mc4wp_form_widget .ale_mail_info i {
-	color: #28b2ff;
+	color: #222222;
 }
 
 #footer-widget-area .widget_mc4wp_form_widget .ale_mail_sub button i {
-	background: #28b2ff;
+	background: #222222;
 }
 
 #footer-widget-area .aletheme-widget-mostcommented .detail .entry-title a:hover,
