@@ -7034,7 +7034,7 @@ section.projects_section .link_to_projects {
 section.projects_section .link_to_projects .link_to_page a {
 	display: block;
 	background-color: #fff;
-	padding: 6px 34px;
+	padding: 12px 34px;
 	text-transform: uppercase;
 	color: #333;
 	font-size: 13px;
