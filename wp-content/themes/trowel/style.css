@@ -1483,7 +1483,7 @@ section.proposition_section .proposition_container .form_side .form_container in
 }
 
 #footer-widget-area .widget_mc4wp_form_widget .ale_mail_sub button i {
-	color: #265194;
+	color: #28b2ff;
 }
 
 footer.footer_bottom .footer_top_part {
@@ -4547,6 +4547,7 @@ button.button:hover {
 	height: 100%;
 	width: 51px;
 	padding: 0;
+	background: #265194;
 }
 
 #footer-widget-area .widget_mc4wp_form_widget .ale_mail_sub button i {
