@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>Best tools &#8211; Trowel</title>
+	<atom:link href="http://art-themes.com/trowel/product-category/best-tools/feed/" rel="self" type="application/rss+xml" />
+	<link>http://art-themes.com/trowel</link>
+	<description>Trowel Theme</description>
+	<lastBuildDate>Tue, 25 Jun 2019 17:08:16 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>hourly</sy:updatePeriod>
+	<sy:updateFrequency>1</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=5.0.7</generator>
+	<item>
+		<title>Product one</title>
+		<link>http://art-themes.com/trowel/product/product-one-2/</link>
+		<comments>http://art-themes.com/trowel/product/product-one-2/#respond</comments>
+		<pubDate>Thu, 14 Feb 2019 14:26:09 +0000</pubDate>
+		<dc:creator><![CDATA[Andrew]]></dc:creator>
+		
+		<guid isPermaLink="false">http://ale_uid_43_5c657a81d490a</guid>
+		<description><![CDATA[ <img width="300" height="300" src="http://art-themes.com/trowel/wp-content/uploads/2019/02/shop2-300x300.png" class="attachment-medium size-medium wp-post-image" alt="" srcset="http://art-themes.com/trowel/wp-content/uploads/2019/02/shop2-300x300.png 300w, http://art-themes.com/trowel/wp-content/uploads/2019/02/shop2-150x150.png 150w, http://art-themes.com/trowel/wp-content/uploads/2019/02/shop2-768x768.png 768w, http://art-themes.com/trowel/wp-content/uploads/2019/02/shop2-600x600.png 600w, http://art-themes.com/trowel/wp-content/uploads/2019/02/shop2-100x100.png 100w, http://art-themes.com/trowel/wp-content/uploads/2019/02/shop2.png 800w" sizes="(max-width: 300px) 100vw, 300px" /> Sed accumsan, nunc vel pulvinar ultrices, orci magna mattis augue, eu aliquet justo lectus sed ante. Vivamus fermentum vulputate elit at elementum. Donec egestas vel dui ac sollicitudin. Integer eu commodo mauris, in ultrices metus. Vestibulum ultricies posuere porttitor. Nullam sit amet nunc eget purus sodales hendrerit sit amet quis leo. In felis milar.]]></description>
+				<content:encoded><![CDATA[<p>Donec scelerisque tortor a lacus faucibus lobortis sit amet vitae augue. Donec eleifend lobortis velit non tempus. Nunc eget rhoncus nisl, ac tincidunt turpis. Vivamus rutrum, nunc in interdum interdum, nibh diam euismod velit, et fringilla mi nunc ut lorem. Praesent sit amet elementum dui. Ut sed est lobortis, efficitur orci quis, vulputate sapien. Donec condimentum elit semper convallis congue.</p>
+<p>Etiam porta ut eros quis tristique. Donec semper elementum blandit. Quisque dignissim lacinia ligula, non scelerisque augue lacinia ac. Cras ultrices dui et ipsum euismod, quis efficitur sapien feugiat. Fusce sed lacinia augue.</p>
+]]></content:encoded>
+			<wfw:commentRss>http://art-themes.com/trowel/product/product-one-2/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>Product one</title>
+		<link>http://art-themes.com/trowel/product/product-one/</link>
+		<comments>http://art-themes.com/trowel/product/product-one/#respond</comments>
+		<pubDate>Sat, 14 Apr 2018 12:28:32 +0000</pubDate>
+		<dc:creator><![CDATA[Andrew]]></dc:creator>
+		
+		<guid isPermaLink="false">http://art-themes.com/trowel/?post_type=product&#038;p=184</guid>
+		<description><![CDATA[Sed accumsan, nunc vel pulvinar ultrices, orci magna mattis augue, eu aliquet justo lectus sed ante. Vivamus fermentum vulputate elit at elementum. Donec egestas vel dui ac sollicitudin. Integer eu commodo mauris, in ultrices metus. Vestibulum ultricies posuere porttitor. Nullam sit amet nunc eget purus sodales hendrerit sit amet quis leo. In felis milar.]]></description>
+				<content:encoded><![CDATA[<p>Donec scelerisque tortor a lacus faucibus lobortis sit amet vitae augue. Donec eleifend lobortis velit non tempus. Nunc eget rhoncus nisl, ac tincidunt turpis. Vivamus rutrum, nunc in interdum interdum, nibh diam euismod velit, et fringilla mi nunc ut lorem. Praesent sit amet elementum dui. Ut sed est lobortis, efficitur orci quis, vulputate sapien. Donec condimentum elit semper convallis congue.</p>
+<p>Etiam porta ut eros quis tristique. Donec semper elementum blandit. Quisque dignissim lacinia ligula, non scelerisque augue lacinia ac. Cras ultrices dui et ipsum euismod, quis efficitur sapien feugiat. Fusce sed lacinia augue.</p>
+]]></content:encoded>
+			<wfw:commentRss>http://art-themes.com/trowel/product/product-one/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+	</channel>
+</rss>

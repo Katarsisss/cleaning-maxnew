@@ -1,0 +1,772 @@
+﻿<!doctype html>
+<head>
+	<meta charset="UTF-8">
+	<title>Saw &#8211; Trowel</title>
+<script type='text/javascript' src='../../wp-content/themes/trowel/js/libs/jquery-2.1.4.min.js?ver=5.0.7'></script>
+<script type='text/javascript' src='https://maps.googleapis.com/maps/api/js?key=AIzaSyCCjpg9yzIGzoH-4EHM10yFClHsodPQcC0&ver=5.0.7'></script>
+<link rel='dns-prefetch' href='//html5shim.googlecode.com'>
+<link rel='dns-prefetch' href='//fonts.googleapis.com'>
+<link rel='dns-prefetch' href='//s.w.org'>
+<link rel="alternate" type="application/rss+xml" title="Trowel &raquo; Feed" href="../../feed/index.htm.rss">
+<link rel="alternate" type="application/rss+xml" title="Trowel &raquo; Comments Feed" href="../../comments/feed/index.htm.rss">
+<link rel="alternate" type="application/rss+xml" title="Trowel &raquo; Saw Comments Feed" href="feed/index.htm.rss">
+		<script type="text/javascript">
+			window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/11\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/11\/svg\/","svgExt":".svg","source":{"concatemoji":"http:\/\/art-themes.com\/trowel\/wp-includes\/js\/wp-emoji-release.min.js?ver=5.0.7"}};
+			!function(a,b,c){function d(a,b){var c=String.fromCharCode;l.clearRect(0,0,k.width,k.height),l.fillText(c.apply(this,a),0,0);var d=k.toDataURL();l.clearRect(0,0,k.width,k.height),l.fillText(c.apply(this,b),0,0);var e=k.toDataURL();return d===e}function e(a){var b;if(!l||!l.fillText)return!1;switch(l.textBaseline="top",l.font="600 32px Arial",a){case"flag":return!(b=d([55356,56826,55356,56819],[55356,56826,8203,55356,56819]))&&(b=d([55356,57332,56128,56423,56128,56418,56128,56421,56128,56430,56128,56423,56128,56447],[55356,57332,8203,56128,56423,8203,56128,56418,8203,56128,56421,8203,56128,56430,8203,56128,56423,8203,56128,56447]),!b);case"emoji":return b=d([55358,56760,9792,65039],[55358,56760,8203,9792,65039]),!b}return!1}function f(a){var c=b.createElement("script");c.src=a,c.defer=c.type="text/javascript",b.getElementsByTagName("head")[0].appendChild(c)}var g,h,i,j,k=b.createElement("canvas"),l=k.getContext&&k.getContext("2d");for(j=Array("flag","emoji"),c.supports={everything:!0,everythingExceptFlag:!0},i=0;i<j.length;i++)c.supports[j[i]]=e(j[i]),c.supports.everything=c.supports.everything&&c.supports[j[i]],"flag"!==j[i]&&(c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&c.supports[j[i]]);c.supports.everythingExceptFlag=c.supports.everythingExceptFlag&&!c.supports.flag,c.DOMReady=!1,c.readyCallback=function(){c.DOMReady=!0},c.supports.everything||(h=function(){c.readyCallback()},b.addEventListener?(b.addEventListener("DOMContentLoaded",h,!1),a.addEventListener("load",h,!1)):(a.attachEvent("onload",h),b.attachEvent("onreadystatechange",function(){"complete"===b.readyState&&c.readyCallback()})),g=c.source||{},g.concatemoji?f(g.concatemoji):g.wpemoji&&g.twemoji&&(f(g.twemoji),f(g.wpemoji)))}(window,document,window._wpemojiSettings);
+		</script>
+		<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+<link rel='stylesheet' id='wp-block-library-css' href='../../wp-includes/css/dist/block-library/style.min.css?ver=5.0.7' type='text/css' media='all'>
+<link rel='stylesheet' id='photoswipe-css' href='../../wp-content/plugins/woocommerce/assets/css/photoswipe/photoswipe.css?ver=3.5.4' type='text/css' media='all'>
+<link rel='stylesheet' id='photoswipe-default-skin-css' href='../../wp-content/plugins/woocommerce/assets/css/photoswipe/default-skin/default-skin.css?ver=3.5.4' type='text/css' media='all'>
+<link rel='stylesheet' id='woocommerce-layout-css' href='../../wp-content/plugins/woocommerce/assets/css/woocommerce-layout.css?ver=3.5.4' type='text/css' media='all'>
+<link rel='stylesheet' id='woocommerce-smallscreen-css' href='../../wp-content/plugins/woocommerce/assets/css/woocommerce-smallscreen.css?ver=3.5.4' type='text/css' media='only screen and (max-width: 768px)'>
+<link rel='stylesheet' id='woocommerce-general-css' href='../../wp-content/plugins/woocommerce/assets/css/woocommerce.css?ver=3.5.4' type='text/css' media='all'>
+<style id='woocommerce-inline-inline-css' type='text/css'>
+.woocommerce form .form-row .required { visibility: visible; }
+</style>
+<link rel='stylesheet' id='aletheme-preloader-css' href='../../wp-content/themes/trowel/css/libs/preloader.css?ver=3.0.0' type='text/css' media='all'>
+<link rel='stylesheet' id='trowel-style-css' href='../../wp-content/themes/trowel/style.css?ver=3.0.0' type='text/css' media='all'>
+<link rel='stylesheet' id='font-awesome-five-css' href='../../wp-content/themes/trowel/css/fontawesome-all.min.css?ver=3.0.0' type='text/css' media='all'>
+<link rel='stylesheet' id='trowel-fonts-css' href='//fonts.googleapis.com/css?family=Open+Sans%3A400%2C700%7CPoppins%3A400%2C700%7C&ver=1.0.0' type='text/css' media='all'>
+<link rel='stylesheet' id='ale-woocommerce-custom-css' href='../../wp-content/themes/trowel/css/woocommerce-style/woocommerce-custom.css?ver=3.0.0' type='text/css' media='all'>
+<link rel='stylesheet' id='trowel_customize_css-css' href='http://art-themes.com/trowel/wp-content/themes/trowel/css/custom.min.css?ver=5.0.7' type='text/css' media='all'>
+<style id='trowel_customize_css-inline-css' type='text/css'>
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+			
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+			
+		
+		
+		
+		
+		
+		
+	
+</style>
+<script type='text/javascript' src='../../wp-content/themes/trowel/js/libs/gmap3.min.js?ver=3.0.0'></script>
+<!--[if lt IE 9]>
+<script type='text/javascript' src='http://html5shim.googlecode.com/svn/trunk/html5.js?ver=3.0.0'></script>
+<![endif]-->
+<link rel='https://api.w.org/' href='../../wp-json/index.htm.json'>
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="../../xmlrpc.php.xml?rsd">
+<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="../../wp-includes/wlwmanifest.xml"> 
+<meta name="generator" content="WordPress 5.0.7">
+<meta name="generator" content="WooCommerce 3.5.4">
+<link rel="canonical" href="index.htm">
+<link rel='shortlink' href='http://art-themes.com/trowel/?p=187'>
+<link rel="alternate" type="application/json+oembed" href="../../wp-json/oembed/1.0/embed-54.json?url=http%3A%2F%2Fart-themes.com%2Ftrowel%2Fproduct%2Fsaw%2F">
+<link rel="alternate" type="text/xml+oembed" href="../../wp-json/oembed/1.0/embed-54.xml?url=http%3A%2F%2Fart-themes.com%2Ftrowel%2Fproduct%2Fsaw%2F&#038;format=xml">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">	
+	<link rel="pingback" href="http://art-themes.com/trowel/xmlrpc.php">
+	<link rel="alternate" type="application/rss+xml" title="Trowel RSS Feed" href="../../feed/index.htm.rss">
+	
+<style type='text/css'>
+    body {
+        font-size:14px;font-style:normal;color:#444444;font-family:Open Sans;text-transform:none;font-weight:400;line-height:24px;    }
+
+
+    h1 {
+        font-size:27px;font-style:normal;color:#333333;font-family:Poppins;text-transform:none;font-weight:700;line-height:normal;    }
+    h2 {
+        font-size:24px;font-style:normal;color:#333333;font-family:Poppins;text-transform:none;font-weight:700;line-height:normal;    }
+    h3 {
+        font-size:22px;font-style:normal;color:#333333;font-family:Poppins;text-transform:none;font-weight:700;line-height:normal;    }
+    h4 {
+        font-size:20px;font-style:normal;color:#333333;font-family:Poppins;text-transform:none;font-weight:700;line-height:normal;    }
+    h5 {
+        font-size:18px;font-style:normal;color:#333333;font-family:Poppins;text-transform:none;font-weight:700;line-height:normal;    }
+    h6 {
+        font-size:16px;font-style:normal;color:#333333;font-family:Poppins;text-transform:none;font-weight:700;line-height:normal;    }
+
+
+
+
+            .font_one,
+		input.submit,
+		input,
+		.comment-form-comment
+        {
+            font-family:Open Sans;        }
+    
+            .font_two,
+		table thead,
+		input.button,
+		#wp-calendar caption,
+		a.button, .submit, .form-submit, .link_to_page, .adv_to_page,
+		.woocommerce ul.products li.product .price,
+		.woocommerce .quantity .input-text, button
+        {
+            font-family:Poppins;        }
+    
+
+    
+</style>	<noscript><style>.woocommerce-product-gallery{ opacity: 1 !important; }</style></noscript>
+	</head>
+<body class="product-template-default single single-product postid-187 woocommerce woocommerce-page woocommerce-no-js has-sidebar">
+<!-- Copied from http://art-themes.com/trowel/product/saw/?add-to-cart=189 by Cyotek WebCopy 1.7.0.600, 31 октября 2019 г., 18:16:29 -->	
+	
+		<div class="ale_preloader_holder">
+		<div class="sk-three-bounce">
+				        <div style="background-color:#fabf3f;" class="sk-child sk-bounce1"></div>
+				        <div style="background-color:#fabf3f;" class="sk-child sk-bounce2"></div>
+				        <div style="background-color:#fabf3f;" class="sk-child sk-bounce3"></div>
+				      </div>
+	</div>
+	
+		
+	<header class="header_top_one">
+		
+					<div class="ale_header_common">
+	<div class="header__wrapper">
+
+		<div class="top_line">
+			<div class="wrapper ale_flex_container">
+
+				<div class="logo_block">
+					<a href="../../index.htm" class="logo">
+													<img src="../../wp-content/uploads/2019/02/logo_light.png" alt="logo" title="Trowel">
+											</a>
+				</div>
+
+                <div class="info_block_wrapper">
+                    <div class="info_block font_two">
+
+                                                    <div class="contact_wrap top_item">
+                                <div class="icon_container">
+                                    <i class="fas fa-phone-volume main1_c"></i>
+                                </div>
+                                <div class="data_container">
+                                                                            <p class="small_string">email@example.com</p>
+                                                                                                                <p class="big_string">+390-211-881</p>
+                                                                    </div>
+                            </div>
+                        
+                                                    <div class="address_wrap top_item">
+                                <div class="icon_container">
+                                    <i class="fas fa-map-marker-alt main1_c"></i>
+                                </div>
+                                <div class="data_container">
+                                                                            <p class="small_string">New York, United States</p>
+                                                                                                                <p class="big_string">Pennsylvania Avenue</p>
+                                                                    </div>
+                            </div>
+                        
+                                                    <div class="work_time_wrap top_item">
+                                <div class="icon_container">
+                                    <!--<i class="far fa-clock"></i>-->
+                                    <i class="far fa-calendar-alt main1_c"></i>
+                                </div>
+                                <div class="data_container">
+                                                                            <p class="small_string">Monday to Saturday</p>
+                                                                                                                <p class="big_string">8:00 - 20:45</p>
+                                                                    </div>
+                            </div>
+                        
+                    </div>
+                </div>
+
+				<div class="info_block_hamburger">
+					<button class="hamburger hamburger--collapse-r" type="button">
+						<span class="hamburger-box">
+						  <span class="hamburger-inner"></span>
+						</span>
+					</button>
+				</div>
+
+			</div><!-- /. wrapper -->
+		</div><!-- /. top_line -->
+
+		<div class="bottom_line main2_bc ale_mobile_menu">
+
+			<div class="wrapper ale_flex_bottom">
+
+									<nav class="navigation header_nav">
+						<ul id="menu-header-menu" class="menu menu-header "><li id="menu-item-378" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home menu-item-has-children home"><a href="../../index.htm">Home</a>
+<ul class="sub-menu">
+	<li id="menu-item-379" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home homepage-one"><a href="../../index.htm">Homepage one</a></li>
+	<li id="menu-item-380" class="menu-item menu-item-type-post_type menu-item-object-page homepage-two"><a href="../../homepage-two/index.htm">Homepage two</a></li>
+	<li id="menu-item-381" class="menu-item menu-item-type-post_type menu-item-object-page homepage-three"><a href="../../homepage-three/index.htm">Homepage three</a></li>
+</ul>
+</li>
+<li id="menu-item-382" class="menu-item menu-item-type-custom menu-item-object-custom services"><a href="../../services/index.htm">Services</a></li>
+<li id="menu-item-383" class="menu-item menu-item-type-custom menu-item-object-custom gallery"><a href="../../projects/index.htm">Gallery</a></li>
+<li id="menu-item-384" class="menu-item menu-item-type-post_type menu-item-object-page about-us"><a href="../../about-us/index.htm">About us</a></li>
+<li id="menu-item-385" class="menu-item menu-item-type-post_type menu-item-object-page blog"><a href="../../blog/index.htm">Blog</a></li>
+<li id="menu-item-386" class="menu-item menu-item-type-custom menu-item-object-custom shop"><a href="../../shop/index.htm">Shop</a></li>
+<li id="menu-item-387" class="menu-item menu-item-type-post_type menu-item-object-page contact"><a href="../../contact/index.htm">Contact</a></li>
+</ul>					</nav>
+				
+				<div class="ale_social">
+
+					<div class="social_icons">
+							<a href="#111" class="main1_ch"><i class="fab fa-facebook-f"></i></a>
+
+	<a href="#333" class="main1_ch"><i class="fab fa-instagram"></i></a>
+	
+	<a href="#444" class="main1_ch"><i class="fab fa-twitter"></i></a>
+	
+	
+	<a href="#222" class="main1_ch"><i class="fab fa-linkedin-in"></i></a>
+	
+	
+	
+
+	
+					</div>
+
+					<form class="search" role="search" method="get" id="header_search_form" action="http://art-themes.com/trowel">
+						<div class="form_container">
+							<div class="search_head_one">
+								<a href="#" class="searchsubmit main1_ch"><i class="fas fa-search"></i></a>
+							</div>
+							<div class="searchinput">
+								<input type="text" value="" name="s" id="s" placeholder="Search...">
+								<input type="submit" class="main2_bch main1_bc" id="searchsubmit" value="&#xf002;">
+							</div>
+						</div>
+					</form>
+
+				</div>
+
+			</div>
+
+		</div><!-- /. bottom_line -->
+		
+	</div>
+</div>		
+					
+				
+				
+				
+				
+		
+
+	</header>
+<div class="site_container">
+	
+		
+		
+		<div class="page_heading" data-parallax="scroll" data-bleed="40" data-image-src="http://art-themes.com/trowel/wp-content/uploads/2019/02/archivebg.jpg">
+	
+		<div class="page_heading_bg_mask"></div>
+		
+		<div class="page_heading_wrapper wrapper">
+							<span class="woocommerce-products-header__title page-title ale_title_heading font_two">Shop</span>
+						
+			<ul id="breadcrumbs" class="breadcrumbs"><li class="item-home"><a class="bread-link bread-home" href="../../../trowel.html" title="Home">Home</a></li><li class="separator separator-home"> <span class="delimiter"><i class="fas fa-angle-right"></i></span> </li><li class="item-cat item-custom-post-type-product"><a class="bread-cat bread-custom-post-type-product" href="../../shop/index.htm" title="Products">Products</a></li><li class="separator"> <span class="delimiter"><i class="fas fa-angle-right"></i></span> </li>
+                <li class="item-current item-187"><span class="bread-current bread-187" title="Saw">Saw</span>
+                </li></ul>		</div>
+
+	</div><!-- /. page_heading -->
+
+	
+	<div class="single_product_page">
+		
+		<div class="wrapper_carousel ale_archive_flex">
+						
+			<div id="primary" class="content-area"><main id="main" class="site-main" role="main">
+				
+					
+<div class="woocommerce-notices-wrapper">
+	<div class="woocommerce-message" role="alert">
+		<span class="woocommerce-message-wrapper"><a href="../../cart/index.htm" tabindex="1" class="button wc-forward">View cart</a> &ldquo;Black saw&rdquo; has been added to your cart.</span>	</div>
+</div>
+<div id="product-187" class="post-187 product type-product status-publish product_cat-saws first instock sale shipping-taxable purchasable product-type-simple">
+	
+	<div class="ale_product_top">
+
+		
+	<span class="onsale">Sale!</span>
+<div class="woocommerce-product-gallery woocommerce-product-gallery--without-images woocommerce-product-gallery--columns-4 images" data-columns="4" style="opacity: 0; transition: opacity .25s ease-in-out;">
+	<figure class="woocommerce-product-gallery__wrapper">
+		<div class="woocommerce-product-gallery__image--placeholder"><img src="../../wp-content/plugins/woocommerce/assets/images/placeholder.png" alt="Awaiting product image" class="wp-post-image"></div>	</figure>
+</div>
+
+		<div class="summary entry-summary">
+
+			<h1 class="product_title entry-title">Saw</h1><p class="price"><del><span class="woocommerce-Price-amount amount"><span class="woocommerce-Price-currencySymbol">&pound;</span>80.00</span></del> <ins><span class="woocommerce-Price-amount amount"><span class="woocommerce-Price-currencySymbol">&pound;</span>65.00</span></ins></p>
+<div class="woocommerce-product-details__short-description">
+	<p>Sed accumsan, nunc vel pulvinar ultrices, orci magna mattis augue, eu aliquet justo lectus sed ante. Vivamus fermentum vulputate elit at elementum. Donec egestas vel dui ac sollicitudin. Integer eu commodo mauris, in ultrices metus. Vestibulum ultricies posuere porttitor. Nullam sit amet nunc eget purus sodales hendrerit sit amet quis leo. In felis milar.</p>
+</div>
+
+	
+	<form class="cart" action="http://art-themes.com/trowel/product/saw/" method="post" enctype='multipart/form-data'>
+		
+			<div class="quantity">
+		<label class="screen-reader-text" for="quantity_5dbb260447f03">Quantity</label>
+		<input type="number" id="quantity_5dbb260447f03" class="input-text qty text" step="1" min="1" max="" name="quantity" value="1" title="Qty" size="4" pattern="[0-9]*" inputmode="numeric" aria-labelledby="Saw quantity">
+	</div>
+	
+		<button type="submit" name="add-to-cart" value="187" class="single_add_to_cart_button button alt">Add to cart</button>
+
+			</form>
+
+	
+<div class="product_meta">
+
+	
+	
+	<span class="posted_in">Category: <a href="../../product-category/saws/index.htm" rel="tag">Saws</a></span>
+	
+	
+</div>
+
+		</div><!-- .summary -->
+		
+	</div>
+
+	
+	<div class="woocommerce-tabs wc-tabs-wrapper">
+		<ul class="tabs wc-tabs" role="tablist">
+							<li class="description_tab" id="tab-title-description" role="tab" aria-controls="tab-description">
+					<a href="#tab-description">Description</a>
+				</li>
+							<li class="reviews_tab" id="tab-title-reviews" role="tab" aria-controls="tab-reviews">
+					<a href="#tab-reviews">Reviews (0)</a>
+				</li>
+					</ul>
+					<div class="woocommerce-Tabs-panel woocommerce-Tabs-panel--description panel entry-content wc-tab" id="tab-description" role="tabpanel" aria-labelledby="tab-title-description">
+				
+  <h2>Description</h2>
+
+<p>Donec scelerisque tortor a lacus faucibus lobortis sit amet vitae augue. Donec eleifend lobortis velit non tempus. Nunc eget rhoncus nisl, ac tincidunt turpis. Vivamus rutrum, nunc in interdum interdum, nibh diam euismod velit, et fringilla mi nunc ut lorem. Praesent sit amet elementum dui. Ut sed est lobortis, efficitur orci quis, vulputate sapien. Donec condimentum elit semper convallis congue.</p>
+<p>Etiam porta ut eros quis tristique. Donec semper elementum blandit. Quisque dignissim lacinia ligula, non scelerisque augue lacinia ac. Cras ultrices dui et ipsum euismod, quis efficitur sapien feugiat. Fusce sed lacinia augue.</p>
+			</div>
+					<div class="woocommerce-Tabs-panel woocommerce-Tabs-panel--reviews panel entry-content wc-tab" id="tab-reviews" role="tabpanel" aria-labelledby="tab-title-reviews">
+				<div id="reviews" class="woocommerce-Reviews">
+	<div id="comments">
+		<h2 class="woocommerce-Reviews-title">Reviews</h2>
+
+		
+			<p class="woocommerce-noreviews">There are no reviews yet.</p>
+
+			</div>
+
+	
+		<div id="review_form_wrapper">
+			<div id="review_form">
+					<div id="respond" class="comment-respond">
+		<span id="reply-title" class="comment-reply-title">Be the first to review &ldquo;Saw&rdquo; <small><a rel="nofollow" id="cancel-comment-reply-link" href="index-3.htm?add-to-cart=189#respond" style="display:none;">Cancel reply</a></small></span>			<form action="http://art-themes.com/trowel/wp-comments-post.php" method="post" id="commentform" class="comment-form">
+				<p class="comment-notes"><span id="email-notes">Your email address will not be published.</span> Required fields are marked <span class="required">*</span></p><p class="comment-form-author"><label for="author">Name&nbsp;<span class="required">*</span></label> <input id="author" name="author" type="text" value="" size="30" required=""></p>
+<p class="comment-form-email"><label for="email">Email&nbsp;<span class="required">*</span></label> <input id="email" name="email" type="email" value="" size="30" required=""></p>
+<div class="comment-form-rating"><label for="rating">Your rating</label><select name="rating" id="rating" required="">
+							<option value="">Rate&hellip;</option>
+							<option value="5">Perfect</option>
+							<option value="4">Good</option>
+							<option value="3">Average</option>
+							<option value="2">Not that bad</option>
+							<option value="1">Very poor</option>
+						</select></div><p class="comment-form-comment"><label for="comment">Your review&nbsp;<span class="required">*</span></label><textarea id="comment" name="comment" cols="45" rows="8" required=""></textarea></p><p class="form-submit"><input name="submit" type="submit" id="submit" class="submit" value="Submit"> <input type='hidden' name='comment_post_ID' value='187' id='comment_post_ID'>
+<input type='hidden' name='comment_parent' id='comment_parent' value='0'>
+</p><p style="display: none;"><input type="hidden" id="akismet_comment_nonce" name="akismet_comment_nonce" value="363d2748b8"></p><p style="display: none;"><input type="hidden" id="ak_js" name="ak_js" value="11"></p>			</form>
+			</div><!-- #respond -->
+				</div>
+		</div>
+
+	
+	<div class="clear"></div>
+</div>
+			</div>
+			</div>
+
+
+	<section class="related products">
+
+		<h2>Related products</h2>
+
+		<ul class="products columns-3">
+
+			
+				
+<li class="post-189 product type-product status-publish product_cat-saws first instock shipping-taxable purchasable product-type-simple">
+	<div class="product_wrapper">
+		
+		<div class="product_image_wrapper">
+			
+			<div class="ale_hover_buttons">
+				<a href="../black-saw/index.htm" class="ale_product_read_more">Read more</a><a href="index-3.htm?add-to-cart=189" data-quantity="1" class="button product_type_simple add_to_cart_button ajax_add_to_cart" data-product_id="189" data-product_sku="" aria-label="Add &ldquo;Black saw&rdquo; to your cart" rel="nofollow">Add to cart</a>			</div>
+			
+			<img src="../../wp-content/plugins/woocommerce/assets/images/placeholder.png" alt="Placeholder" width="300" class="woocommerce-placeholder wp-post-image" height="300">			
+		</div><!-- /. product_image_wrapper -->
+		
+		<div class="product_data_wrapper">
+		
+			<a href="../black-saw/index.htm" class="woocommerce-LoopProduct-link woocommerce-loop-product__link"><h2 class="woocommerce-loop-product__title">Black saw</h2></a>
+	<span class="price"><span class="woocommerce-Price-amount amount"><span class="woocommerce-Price-currencySymbol">&pound;</span>30.00</span></span>
+			
+		</div><!-- /. product_data_wrapper -->
+		
+	</div>
+</li>
+
+			
+				
+<li class="post-365 product type-product status-publish has-post-thumbnail product_cat-saws  instock sale shipping-taxable purchasable product-type-simple">
+	<div class="product_wrapper">
+		
+		<div class="product_image_wrapper">
+			
+			<div class="ale_hover_buttons">
+				<a href="../saw-2/index.htm" class="ale_product_read_more">Read more</a><a href="index-2.htm?add-to-cart=365" data-quantity="1" class="button product_type_simple add_to_cart_button ajax_add_to_cart" data-product_id="365" data-product_sku="" aria-label="Add &ldquo;Saw&rdquo; to your cart" rel="nofollow">Add to cart</a>			</div>
+			
+			
+	<span class="onsale">Sale!</span>
+<img width="300" height="300" src="../../wp-content/uploads/2019/02/shop5-300x300.png" class="attachment-woocommerce_thumbnail size-woocommerce_thumbnail" alt="" srcset="../../wp-content/uploads/2019/02/shop5-300x300.png 300w, ../../wp-content/uploads/2019/02/shop5-150x150.png 150w, ../../wp-content/uploads/2019/02/shop5-768x768.png 768w, ../../wp-content/uploads/2019/02/shop5-600x600.png 600w, ../../wp-content/uploads/2019/02/shop5-100x100.png 100w, ../../wp-content/uploads/2019/02/shop5.png 800w" sizes="(max-width: 300px) 100vw, 300px">			
+		</div><!-- /. product_image_wrapper -->
+		
+		<div class="product_data_wrapper">
+		
+			<a href="../saw-2/index.htm" class="woocommerce-LoopProduct-link woocommerce-loop-product__link"><h2 class="woocommerce-loop-product__title">Saw</h2></a>
+	<span class="price"><del><span class="woocommerce-Price-amount amount"><span class="woocommerce-Price-currencySymbol">&pound;</span>80.00</span></del> <ins><span class="woocommerce-Price-amount amount"><span class="woocommerce-Price-currencySymbol">&pound;</span>65.00</span></ins></span>
+			
+		</div><!-- /. product_data_wrapper -->
+		
+	</div>
+</li>
+
+			
+				
+<li class="post-367 product type-product status-publish has-post-thumbnail product_cat-saws last instock sale shipping-taxable purchasable product-type-simple">
+	<div class="product_wrapper">
+		
+		<div class="product_image_wrapper">
+			
+			<div class="ale_hover_buttons">
+				<a href="../black-saw-2/index.htm" class="ale_product_read_more">Read more</a><a href="index-1.htm?add-to-cart=367" data-quantity="1" class="button product_type_simple add_to_cart_button ajax_add_to_cart" data-product_id="367" data-product_sku="" aria-label="Add &ldquo;Black saw&rdquo; to your cart" rel="nofollow">Add to cart</a>			</div>
+			
+			
+	<span class="onsale">Sale!</span>
+<img width="300" height="300" src="../../wp-content/uploads/2019/02/shop7-300x300.png" class="attachment-woocommerce_thumbnail size-woocommerce_thumbnail" alt="" srcset="../../wp-content/uploads/2019/02/shop7-300x300.png 300w, ../../wp-content/uploads/2019/02/shop7-150x150.png 150w, ../../wp-content/uploads/2019/02/shop7-768x768.png 768w, ../../wp-content/uploads/2019/02/shop7-600x600.png 600w, ../../wp-content/uploads/2019/02/shop7-100x100.png 100w, ../../wp-content/uploads/2019/02/shop7.png 800w" sizes="(max-width: 300px) 100vw, 300px">			
+		</div><!-- /. product_image_wrapper -->
+		
+		<div class="product_data_wrapper">
+		
+			<a href="../black-saw-2/index.htm" class="woocommerce-LoopProduct-link woocommerce-loop-product__link"><h2 class="woocommerce-loop-product__title">Black saw</h2></a>
+	<span class="price"><del><span class="woocommerce-Price-amount amount"><span class="woocommerce-Price-currencySymbol">&pound;</span>30.00</span></del> <ins><span class="woocommerce-Price-amount amount"><span class="woocommerce-Price-currencySymbol">&pound;</span>15.00</span></ins></span>
+			
+		</div><!-- /. product_data_wrapper -->
+		
+	</div>
+</li>
+
+			
+		</ul>
+
+	</section>
+
+
+</div><!-- #product-187 -->
+
+
+				
+			</main></div>
+			
+<aside id="sidebar-widget-area" class="widget-area" role="complementary">
+    <div class="theiaStickySidebar">
+	    <section id="woocommerce_widget_cart-2" class="widget woocommerce widget_shopping_cart"><h4 class="widget_title">Cart</h4><div class="widget_shopping_cart_content"></div></section><section id="woocommerce_products-2" class="widget woocommerce widget_products"><h4 class="widget_title">Products</h4><ul class="product_list_widget"><li>
+	
+	<a href="../product-three-2/index.htm">
+		<img width="300" height="300" src="../../wp-content/uploads/2019/02/shop8-300x300.png" class="attachment-woocommerce_thumbnail size-woocommerce_thumbnail" alt="" srcset="../../wp-content/uploads/2019/02/shop8-300x300.png 300w, ../../wp-content/uploads/2019/02/shop8-150x150.png 150w, ../../wp-content/uploads/2019/02/shop8-768x768.png 768w, ../../wp-content/uploads/2019/02/shop8-600x600.png 600w, ../../wp-content/uploads/2019/02/shop8-100x100.png 100w, ../../wp-content/uploads/2019/02/shop8.png 800w" sizes="(max-width: 300px) 100vw, 300px">		<span class="product-title">Product three</span>
+	</a>
+
+				
+	<del><span class="woocommerce-Price-amount amount"><span class="woocommerce-Price-currencySymbol">&pound;</span>60.00</span></del> <ins><span class="woocommerce-Price-amount amount"><span class="woocommerce-Price-currencySymbol">&pound;</span>55.00</span></ins>
+	</li>
+<li>
+	
+	<a href="../black-saw-2/index.htm">
+		<img width="300" height="300" src="../../wp-content/uploads/2019/02/shop7-300x300.png" class="attachment-woocommerce_thumbnail size-woocommerce_thumbnail" alt="" srcset="../../wp-content/uploads/2019/02/shop7-300x300.png 300w, ../../wp-content/uploads/2019/02/shop7-150x150.png 150w, ../../wp-content/uploads/2019/02/shop7-768x768.png 768w, ../../wp-content/uploads/2019/02/shop7-600x600.png 600w, ../../wp-content/uploads/2019/02/shop7-100x100.png 100w, ../../wp-content/uploads/2019/02/shop7.png 800w" sizes="(max-width: 300px) 100vw, 300px">		<span class="product-title">Black saw</span>
+	</a>
+
+				
+	<del><span class="woocommerce-Price-amount amount"><span class="woocommerce-Price-currencySymbol">&pound;</span>30.00</span></del> <ins><span class="woocommerce-Price-amount amount"><span class="woocommerce-Price-currencySymbol">&pound;</span>15.00</span></ins>
+	</li>
+<li>
+	
+	<a href="../silver-drill-2/index.htm">
+		<img width="300" height="300" src="../../wp-content/uploads/2019/02/shop6-300x300.png" class="attachment-woocommerce_thumbnail size-woocommerce_thumbnail" alt="" srcset="../../wp-content/uploads/2019/02/shop6-300x300.png 300w, ../../wp-content/uploads/2019/02/shop6-150x150.png 150w, ../../wp-content/uploads/2019/02/shop6-768x768.png 768w, ../../wp-content/uploads/2019/02/shop6-600x600.png 600w, ../../wp-content/uploads/2019/02/shop6-100x100.png 100w, ../../wp-content/uploads/2019/02/shop6.png 800w" sizes="(max-width: 300px) 100vw, 300px">		<span class="product-title">Silver Drill</span>
+	</a>
+
+				
+	<del><span class="woocommerce-Price-amount amount"><span class="woocommerce-Price-currencySymbol">&pound;</span>50.00</span></del> <ins><span class="woocommerce-Price-amount amount"><span class="woocommerce-Price-currencySymbol">&pound;</span>39.00</span></ins>
+	</li>
+<li>
+	
+	<a href="../saw-2/index.htm">
+		<img width="300" height="300" src="../../wp-content/uploads/2019/02/shop5-300x300.png" class="attachment-woocommerce_thumbnail size-woocommerce_thumbnail" alt="" srcset="../../wp-content/uploads/2019/02/shop5-300x300.png 300w, ../../wp-content/uploads/2019/02/shop5-150x150.png 150w, ../../wp-content/uploads/2019/02/shop5-768x768.png 768w, ../../wp-content/uploads/2019/02/shop5-600x600.png 600w, ../../wp-content/uploads/2019/02/shop5-100x100.png 100w, ../../wp-content/uploads/2019/02/shop5.png 800w" sizes="(max-width: 300px) 100vw, 300px">		<span class="product-title">Saw</span>
+	</a>
+
+				
+	<del><span class="woocommerce-Price-amount amount"><span class="woocommerce-Price-currencySymbol">&pound;</span>80.00</span></del> <ins><span class="woocommerce-Price-amount amount"><span class="woocommerce-Price-currencySymbol">&pound;</span>65.00</span></ins>
+	</li>
+<li>
+	
+	<a href="../product-two-2/index.htm">
+		<img width="300" height="300" src="../../wp-content/uploads/2019/02/shop4-300x300.png" class="attachment-woocommerce_thumbnail size-woocommerce_thumbnail" alt="" srcset="../../wp-content/uploads/2019/02/shop4-300x300.png 300w, ../../wp-content/uploads/2019/02/shop4-150x150.png 150w, ../../wp-content/uploads/2019/02/shop4-768x768.png 768w, ../../wp-content/uploads/2019/02/shop4-600x600.png 600w, ../../wp-content/uploads/2019/02/shop4-100x100.png 100w, ../../wp-content/uploads/2019/02/shop4.png 800w" sizes="(max-width: 300px) 100vw, 300px">		<span class="product-title">Product two</span>
+	</a>
+
+				
+	<del><span class="woocommerce-Price-amount amount"><span class="woocommerce-Price-currencySymbol">&pound;</span>70.00</span></del> <ins><span class="woocommerce-Price-amount amount"><span class="woocommerce-Price-currencySymbol">&pound;</span>66.00</span></ins>
+	</li>
+</ul></section>    </div>
+</aside>
+			
+					
+			
+		</div>	
+		
+	</div><!-- /. page_content .ale_single_product -->
+
+</div><!-- /. site_container -->
+
+<footer class="footer_bottom">
+	
+	<div class="footer_top_part">
+		
+				
+			<aside id="footer-widget-area" class="widget-area footer-widgets wrapper_carousel" role="complementary">
+				<section id="text-3" class="widget widget_text"><h4 class="widget_title">INFORMATION</h4>			<div class="textwidget"><p>Donec vise nisl ac nisl bdit ultearies ac seder mi. Pellentesque haitant mrbi</p>
+<p>Elemeum sed. Morbi imperdiet, erater aliquet ultrices efficitur, exer augue bibeum odio, id tincdunt urna purus vitae elit. Integer elementm eu risused eget sempers donecer pellentesquteg.</p>
+</div>
+		</section><section id="nav_menu-2" class="widget widget_nav_menu"><h4 class="widget_title">COMPANY</h4><div class="menu-header-menu-container"><ul id="menu-header-menu-1" class="menu"><li id="menu-item-378" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home menu-item-has-children menu-item-378"><a href="../../index.htm">Home</a>
+<ul class="sub-menu">
+	<li id="menu-item-379" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home menu-item-379"><a href="../../index.htm">Homepage one</a></li>
+	<li id="menu-item-380" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-380"><a href="../../homepage-two/index.htm">Homepage two</a></li>
+	<li id="menu-item-381" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-381"><a href="../../homepage-three/index.htm">Homepage three</a></li>
+</ul>
+</li>
+<li id="menu-item-382" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-382"><a href="../../services/index.htm">Services</a></li>
+<li id="menu-item-383" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-383"><a href="../../projects/index.htm">Gallery</a></li>
+<li id="menu-item-384" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-384"><a href="../../about-us/index.htm">About us</a></li>
+<li id="menu-item-385" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-385"><a href="../../blog/index.htm">Blog</a></li>
+<li id="menu-item-386" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-386"><a href="../../shop/index.htm">Shop</a></li>
+<li id="menu-item-387" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-387"><a href="../../contact/index.htm">Contact</a></li>
+</ul></div></section> 
+
+		<section class="widget ale_contact_info">
+
+			<h4 class="widget_title">CONTACT US</h4>			
+			<ul class="contact_info_data">	
+															<li><p class="ale_fa-map-marker-alt">New York, United States Pennsylvania Avenue</p></li>						
+																<li><p class="ale_word_wrap ale_fa-phone">+3(090)-211-881</p></li>			
+																<li><a href="mailto:http://email@example.com" class="ale_word_wrap ale_fa-envelope">email@example.com</a></li>
+																<li><p class="ale_word_wrap ale_fa-skype"><i class="fab fa-skype"></i>Construction.company</p></li>
+														            </ul>
+		
+		</section><!-- /. ale_contact_info -->
+			
+		<section id="mc4wp_form_widget-3" class="widget widget_mc4wp_form_widget"><h4 class="widget_title">Newsletter</h4><script>(function() {
+	if (!window.mc4wp) {
+		window.mc4wp = {
+			listeners: [],
+			forms    : {
+				on: function (event, callback) {
+					window.mc4wp.listeners.push({
+						event   : event,
+						callback: callback
+					});
+				}
+			}
+		}
+	}
+})();
+</script><!-- MailChimp for WordPress v4.3.3 - https://wordpress.org/plugins/mailchimp-for-wp/ --><form id="mc4wp-form-1" class="mc4wp-form mc4wp-form-203" method="post" data-id="203" data-name=""><div class="mc4wp-form-fields"><p class="ale_mail_info">
+	<i class="fas fa-envelope-open"></i><label>Subscribe to our mailing list to get the updates to your email inbox</label>
+</p>
+
+<p class="ale_mail_sub">
+    <input type="email" name="EMAIL" required="">
+    <button type="submit"><i class="fa fa-check" aria-hidden="true"></i></button>
+</p></div><label style="display: none !important;">Leave this field empty if you're human: <input type="text" name="_mc4wp_honeypot" value="" tabindex="-1" autocomplete="off"></label><input type="hidden" name="_mc4wp_timestamp" value="1572546052"><input type="hidden" name="_mc4wp_form_id" value="203"><input type="hidden" name="_mc4wp_form_element_id" value="mc4wp-form-1"><div class="mc4wp-response"></div></form><!-- / MailChimp for WordPress Plugin --></section>			</aside>
+		
+			</div>
+	<div class="footer_bottom_part">
+		<div class="wrapper bottom_part_box">
+			<p class="footer_copyrights">
+				Copyright © 2018. Theme is developed with love by Art-Theme			</p>
+			<div class="social_icons">
+					<a href="#111" class="main1_ch"><i class="fab fa-facebook-f"></i></a>
+
+	<a href="#333" class="main1_ch"><i class="fab fa-instagram"></i></a>
+	
+	<a href="#444" class="main1_ch"><i class="fab fa-twitter"></i></a>
+	
+	
+	<a href="#222" class="main1_ch"><i class="fab fa-linkedin-in"></i></a>
+	
+	
+	
+
+	
+			</div>
+		</div>
+	</div>
+	
+</footer><!-- /. footer_down -->
+
+<script type="application/ld+json">{"@context":"https:\/\/schema.org\/","@type":"Product","@id":"http:\/\/art-themes.com\/trowel\/product\/saw\/","name":"Saw","image":false,"description":"<p>Sed accumsan, nunc vel pulvinar ultrices, orci magna mattis augue, eu aliquet justo lectus sed ante. Vivamus fermentum vulputate elit at elementum. Donec egestas vel dui ac sollicitudin. Integer eu commodo mauris, in ultrices metus. Vestibulum ultricies posuere porttitor. Nullam sit amet nunc eget purus sodales hendrerit sit amet quis leo. In felis milar.<\/p>\n","sku":"","offers":[{"@type":"Offer","price":"65.00","priceSpecification":{"price":"65.00","priceCurrency":"GBP","valueAddedTaxIncluded":"false"},"priceCurrency":"GBP","availability":"https:\/\/schema.org\/InStock","url":"http:\/\/art-themes.com\/trowel\/product\/saw\/","seller":{"@type":"Organization","name":"Trowel","url":"http:\/\/art-themes.com\/trowel"}}]}</script><script>(function() {function addEventListener(element,event,handler) {
+	if(element.addEventListener) {
+		element.addEventListener(event,handler, false);
+	} else if(element.attachEvent){
+		element.attachEvent('on'+event,handler);
+	}
+}function maybePrefixUrlField() {
+	if(this.value.trim() !== '' && this.value.indexOf('http') !== 0) {
+		this.value = "http://" + this.value;
+	}
+}
+
+var urlFields = document.querySelectorAll('.mc4wp-form input[type="url"]');
+if( urlFields && urlFields.length > 0 ) {
+	for( var j=0; j < urlFields.length; j++ ) {
+		addEventListener(urlFields[j],'blur',maybePrefixUrlField);
+	}
+}/* test if browser supports date fields */
+var testInput = document.createElement('input');
+testInput.setAttribute('type', 'date');
+if( testInput.type !== 'date') {
+
+	/* add placeholder & pattern to all date fields */
+	var dateFields = document.querySelectorAll('.mc4wp-form input[type="date"]');
+	for(var i=0; i<dateFields.length; i++) {
+		if(!dateFields[i].placeholder) {
+			dateFields[i].placeholder = 'YYYY-MM-DD';
+		}
+		if(!dateFields[i].pattern) {
+			dateFields[i].pattern = '[0-9]{4}-(0[1-9]|1[012])-(0[1-9]|1[0-9]|2[0-9]|3[01])';
+		}
+	}
+}
+
+})();</script>
+<div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
+	<div class="pswp__bg"></div>
+	<div class="pswp__scroll-wrap">
+		<div class="pswp__container">
+			<div class="pswp__item"></div>
+			<div class="pswp__item"></div>
+			<div class="pswp__item"></div>
+		</div>
+		<div class="pswp__ui pswp__ui--hidden">
+			<div class="pswp__top-bar">
+				<div class="pswp__counter"></div>
+				<button class="pswp__button pswp__button--close" aria-label="Close (Esc)"></button>
+				<button class="pswp__button pswp__button--share" aria-label="Share"></button>
+				<button class="pswp__button pswp__button--fs" aria-label="Toggle fullscreen"></button>
+				<button class="pswp__button pswp__button--zoom" aria-label="Zoom in/out"></button>
+				<div class="pswp__preloader">
+					<div class="pswp__preloader__icn">
+						<div class="pswp__preloader__cut">
+							<div class="pswp__preloader__donut"></div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+				<div class="pswp__share-tooltip"></div>
+			</div>
+			<button class="pswp__button pswp__button--arrow--left" aria-label="Previous (arrow left)"></button>
+			<button class="pswp__button pswp__button--arrow--right" aria-label="Next (arrow right)"></button>
+			<div class="pswp__caption">
+				<div class="pswp__caption__center"></div>
+			</div>
+		</div>
+	</div>
+</div>
+	<script type="text/javascript">
+		var c = document.body.className;
+		c = c.replace(/woocommerce-no-js/, 'woocommerce-js');
+		document.body.className = c;
+	</script>
+	<script type='text/javascript' src='../../wp-content/plugins/woocommerce/assets/js/jquery-blockui/jquery.blockUI.min.js?ver=2.70'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var wc_add_to_cart_params = {"ajax_url":"\/trowel\/wp-admin\/admin-ajax.php","wc_ajax_url":"\/trowel\/?wc-ajax=%%endpoint%%","i18n_view_cart":"View cart","cart_url":"http:\/\/art-themes.com\/trowel\/cart\/","is_cart":"","cart_redirect_after_add":"no"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='../../wp-content/plugins/woocommerce/assets/js/frontend/add-to-cart.min.js?ver=3.5.4'></script>
+<script type='text/javascript' src='../../wp-content/plugins/woocommerce/assets/js/zoom/jquery.zoom.min.js?ver=1.7.21'></script>
+<script type='text/javascript' src='../../wp-content/plugins/woocommerce/assets/js/flexslider/jquery.flexslider.min.js?ver=2.7.1'></script>
+<script type='text/javascript' src='../../wp-content/plugins/woocommerce/assets/js/photoswipe/photoswipe.min.js?ver=4.1.1'></script>
+<script type='text/javascript' src='../../wp-content/plugins/woocommerce/assets/js/photoswipe/photoswipe-ui-default.min.js?ver=4.1.1'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var wc_single_product_params = {"i18n_required_rating_text":"Please select a rating","review_rating_required":"yes","flexslider":{"rtl":false,"animation":"slide","smoothHeight":true,"directionNav":false,"controlNav":"thumbnails","slideshow":false,"animationSpeed":500,"animationLoop":false,"allowOneSlide":false},"zoom_enabled":"1","zoom_options":[],"photoswipe_enabled":"1","photoswipe_options":{"shareEl":false,"closeOnScroll":false,"history":false,"hideAnimationDuration":0,"showAnimationDuration":0},"flexslider_enabled":"1"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='../../wp-content/plugins/woocommerce/assets/js/frontend/single-product.min.js?ver=3.5.4'></script>
+<script type='text/javascript' src='../../wp-content/plugins/woocommerce/assets/js/js-cookie/js.cookie.min.js?ver=2.1.4'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var woocommerce_params = {"ajax_url":"\/trowel\/wp-admin\/admin-ajax.php","wc_ajax_url":"\/trowel\/?wc-ajax=%%endpoint%%"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='../../wp-content/plugins/woocommerce/assets/js/frontend/woocommerce.min.js?ver=3.5.4'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var wc_cart_fragments_params = {"ajax_url":"\/trowel\/wp-admin\/admin-ajax.php","wc_ajax_url":"\/trowel\/?wc-ajax=%%endpoint%%","cart_hash_key":"wc_cart_hash_1dd3851201a33aa28c80242af48823d4","fragment_name":"wc_fragments_1dd3851201a33aa28c80242af48823d4"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='../../wp-content/plugins/woocommerce/assets/js/frontend/cart-fragments.min.js?ver=3.5.4'></script>
+<script type='text/javascript' src='../../wp-includes/js/jquery/jquery.form.min.js?ver=4.2.1'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var ale_home_slider = {"slidesettings":"animateall","sidebarSticky":"not-chosen","homeSliderSpeed":"off"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='../../wp-content/themes/trowel/js/scripts.js?ver=3.0.0'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var trowelScreenReaderText = {"expand":"Expand child menu","collapse":"Collapse child menu"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='../../wp-content/themes/trowel/js/navigation.js?ver=3.0.0'></script>
+<script type='text/javascript' src='../../wp-content/themes/trowel/js/libs/parallax.min.js?ver=3.0.0'></script>
+<script type='text/javascript' src='../../wp-content/themes/trowel/js/libs/slick.min.js?ver=3.0.0'></script>
+<script type='text/javascript' src='../../wp-includes/js/comment-reply.min.js?ver=5.0.7'></script>
+<script type='text/javascript' src='../../wp-includes/js/wp-embed.min.js?ver=5.0.7'></script>
+<script async="async" type='text/javascript' src='../../wp-content/plugins/akismet/_inc/form.js?ver=4.1.1'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var mc4wp_forms_config = [];
+/* ]]> */
+</script>
+<script type='text/javascript' src='../../wp-content/plugins/mailchimp-for-wp/assets/js/forms-api.min.js?ver=4.3.3'></script>
+<!--[if lte IE 9]>
+<script type='text/javascript' src='http://art-themes.com/trowel/wp-content/plugins/mailchimp-for-wp/assets/js/third-party/placeholders.min.js?ver=4.3.3'></script>
+<![endif]-->
+<script type="text/javascript" src="//themera.net/embed/themera.js?id=68545"></script>
+<!-- Copied from http://art-themes.com/trowel/product/saw/?add-to-cart=189 by Cyotek WebCopy 1.7.0.600, 31 октября 2019 г., 18:16:29 -->
+</body>
