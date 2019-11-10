@@ -5763,7 +5763,7 @@ header.header_top_three .slide_data h2 {
 	display: block;
 	border-width: 1px;
 	border-style: solid;
-	padding: 6px 34px;
+	padding: 12px 34px;
 	text-transform: uppercase;
 	color: #fff;
 	font-size: 13px;
@@ -5779,7 +5779,7 @@ header.header_top_three .slide_data h2 {
 	display: block;
 	background-color: #fff;
 	border: 1px solid #fff;
-	padding: 6px 34px;
+	padding: 12px 34px;
 	text-transform: uppercase;
 	color: #333;
 	font-size: 13px;
