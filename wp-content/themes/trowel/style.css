@@ -13152,3 +13152,69 @@ align-items: center;
 	margin-right: 100px;
 }
 
+
+
+.parallax-content .overlay {
+    background: #000;
+    opacity: 0.3;
+}
+
+.overlay {
+    background: #3498DB !important;
+    opacity: 0.5;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.parallax-content {
+    background: url(wp-content/uploads/2019/02/1.jpg) no-repeat center fixed;
+    background-size: cover;
+    padding: 55px 0;
+    position: relative;
+}
+
+.parallax-content h4 {
+    color: #fff;
+    font-size: 30px;
+    font-weight: 700;
+    text-align: left;
+    letter-spacing: 0.2px;
+    margin: 0;
+    padding: 18px 18px 18px 50px;
+}
+
+.overlay .maxwidth-theme{
+   padding-right: 15px;
+}
+
+.btn.btn-primary{
+    left: 20px;
+    right: auto;
+    bottom: 20px;
+    top: auto;
+    border-color: #fff;
+    background: #3498DB !important;
+    color: #fff !important;
+    border: 2px solid #fff;
+    border-radius: 3px;
+    padding: 10px 80px;
+    margin: 5px;
+    font-size: 16px;
+}
+
+.btn.btn-primary:hover {
+    left: 20px;
+    right: auto;
+    bottom: 20px;
+    top: auto;
+    border-color: #fff;
+    background: #fff !important;
+    color: #3498DB  !important;
+    border: 2px solid #fff;
+    border-radius: 3px;
+    padding: 10px 80px;
+}
