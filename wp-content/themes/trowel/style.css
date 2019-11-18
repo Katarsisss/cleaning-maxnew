@@ -13106,9 +13106,9 @@ footer.footer_bottom .footer_bottom_part .bottom_part_box .social_icons a {
 
 .circle-block p{
    position: absolute;
-   top: 70px;
+   top: 90px;
    right: 5px;
-   font-size: 25px;
+   font-size: 23px;
    text-align: center;
    color: #fff;
 }
@@ -13151,3 +13151,4 @@ align-items: center;
 .circle-block-normal{
 	margin-right: 100px;
 }
+
