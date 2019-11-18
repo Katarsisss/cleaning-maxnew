@@ -13140,10 +13140,14 @@ align-items: center;
 
 
 .circle-block-right{
-	padding-left: 100px;
+	margin-left: 100px;
 }
 
 
 .circle-block-left{
-	padding-left: 100px;
+	margin-left: 100px;
+}
+
+.circle-block-normal{
+	margin-right: 100px;
 }
