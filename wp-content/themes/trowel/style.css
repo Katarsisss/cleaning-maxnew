@@ -13197,18 +13197,15 @@ align-items: center;
 }
 
 .btn.btn-primary{
-    left: 20px;
-    right: auto;
-    bottom: 20px;
-    top: auto;
     border-color: #fff;
     background: #3498DB !important;
     color: #fff !important;
     border: 2px solid #fff;
     border-radius: 3px;
     padding: 10px 80px;
-    margin: 5px;
+    margin: 10px;
     font-size: 16px;
+    display: flex;
 }
 
 .btn.btn-primary:hover {
