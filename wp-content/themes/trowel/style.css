@@ -13060,3 +13060,77 @@ footer.footer_bottom .footer_bottom_part .bottom_part_box .social_icons a {
 }
 
 /*# sourceMappingURL=../trowel/css/maps/style.css.map */
+
+
+
+
+.wrapper_carousel {
+    max-width: 1170px;
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+.main-picture{
+    width: 50%;
+}
+
+.circle-1 img{
+	height: 200px;
+	width: 200px;
+	border-radius: 50%;
+	z-index: 1;
+	box-shadow: 0 0 0 5px #fff, 0 0 0 6px #145477;
+}
+
+
+.circle-2 img{
+	height: 200px;
+	width: 200px;
+	border-radius: 50%;
+	z-index: 1;
+	box-shadow: 0 0 0 5px #fff, 0 0 0 6px #145477;
+}
+
+
+.circle-block{
+   padding-top: 20px;
+   position: relative;
+}
+
+
+.circle-block p{
+   position: absolute;
+   top: 70px;
+   right: 5px;
+   font-size: 25px;
+   text-align: center;
+   color: #fff;
+}
+
+.circle-block p a{
+   color: #fff;
+   text-decoration: none;
+}
+
+.circle-block p a:hover{
+   color: #fff;
+   text-decoration: none;
+}
+
+.main-picture{
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+
+.tabwin_content {
+    display: none;
+}
+
+.tabwin_content_selected {
+    display: block;
+}
+
