@@ -13138,3 +13138,12 @@ align-items: center;
     display: block;
 }
 
+
+.circle-block-right{
+	padding-left: 100px;
+}
+
+
+.circle-block-left{
+	padding-right: 100px;
+}
