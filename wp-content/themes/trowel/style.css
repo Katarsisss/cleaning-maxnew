@@ -13076,6 +13076,13 @@ footer.footer_bottom .footer_bottom_part .bottom_part_box .social_icons a {
     justify-content: space-around;
 }
 
+.circle-1{
+   width: 25%;
+}
+
+.circle-2{
+   width: 25%;
+}
 .main-picture{
     width: 50%;
 }
