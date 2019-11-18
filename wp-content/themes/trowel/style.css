@@ -13170,8 +13170,13 @@ align-items: center;
     height: 100%;
 }
 
+.maxwidth-theme{
+	display: flex;
+	justify-content: space-between;
+}
+
 .parallax-content {
-    background: url(wp-content/uploads/2019/02/1.jpg) no-repeat center fixed;
+    background: url(/wp-content/uploads/2019/02/1.jpg) no-repeat center fixed;
     background-size: cover;
     padding: 55px 0;
     position: relative;
