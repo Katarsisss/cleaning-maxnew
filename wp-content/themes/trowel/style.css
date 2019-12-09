@@ -13248,6 +13248,17 @@ align-items: center;
 	color: #28b2ff;
 }
 
+
+.cleaning-order i:before{   
+    content: "";
+    border-radius: 50%;
+    width: 10px;
+    height: 10px; 
+}
+
+
+
+
 .testimonials_box{
     background: url(../../uploads/2019/02/home_three_1.jpg) no-repeat;
 }
