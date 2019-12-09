@@ -13181,6 +13181,13 @@ align-items: center;
     justify-content: center;
 }
 
+
+.parallax-content .maxwidth-theme{
+    z-index: 10;
+}
+
+
+
 .parallax-content .col-md-8, .parallax-content .col-md-4{
     display: inline-block;
 }
@@ -13200,14 +13207,12 @@ align-items: center;
 }
 
 .btn.btn-primary{
-    border-color: #fff;
-    background: #3498DB !important;
-    color: #fff !important;
-    border: 2px solid #fff;
+    padding: 11px 25px;
+    color: #fff;
+    margin-top: 23px;
+    transition: all 300ms ease-in-out;
     border-radius: 3px;
-    padding: 10px 80px;
-    margin: 15px 50px 15px 0;
-    font-size: 16px;
+    background-color: #28b2ff;
 }
 
 .btn.btn-primary:hover {
