@@ -13177,6 +13177,12 @@ align-items: center;
     background-size: cover;
     padding: 55px 0;
     position: relative;
+    display: flex;
+    justify-content: center;
+}
+
+.parallax-content .col-md-8, .parallax-content .col-md-4{
+    display: inline-block;
 }
 
 .parallax-content h4 {
