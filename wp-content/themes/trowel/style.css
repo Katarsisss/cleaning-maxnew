@@ -13342,13 +13342,14 @@ align-items: center;
 
 
 .header-block-single{
+	display: flex;
+	justify-content: flex-end;
 	background: url(../../uploads/2019/02/cleaning-proizvodstvo.jpg) no-repeat;
 }
 
 
 .header-block-text{
     width: 40%;
-    float: right;
 }
 
 .header-block-text p{
