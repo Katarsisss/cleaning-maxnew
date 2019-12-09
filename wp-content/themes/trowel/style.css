@@ -13189,7 +13189,7 @@ align-items: center;
 
 
 
-.parallax-content .col-md-8, .parallax-content .col-md-4{
+.parallax-content .parallax-text, .parallax-content .parallax-btn{
     display: inline-block;
 }
 
