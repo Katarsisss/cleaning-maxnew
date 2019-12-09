@@ -13296,3 +13296,46 @@ align-items: center;
 	width: 130px;
 }
 
+
+.advantages-icon{
+	display: inline-block;
+	width: 130px;
+}
+
+.advantages-single h2{
+	font-size: 26px;
+    color: #585858;
+    text-transform: uppercase;
+    font-weight: 700;
+    text-align: center;
+}
+
+
+.advantages-single .services_separator{
+	height: 1px;
+    width: 122px;
+    background-color: #585858;
+    margin: 15px auto 15px auto;
+    position: relative;
+}
+
+.advantages-single .wrapper{
+	padding-bottom: 40px;
+}
+
+
+.advantages-single{
+    display: flex;
+    justify-content: space-around;
+    padding: 80px 0;
+}
+
+
+.advantages-single i{
+	background: white;
+	padding: 40px;
+	border-radius: 50%;
+	font-size: 30px;
+	color: #28b2ff;
+	box-shadow: 0 0 10px rgba(0,0,0,0.12);
+}
