@@ -13363,5 +13363,9 @@ align-items: center;
 }
 
 .blue-text{
-   color: #28b2ff;
+   color: #28b2ff !important;
+}
+
+header-block-btn{
+	
 }
