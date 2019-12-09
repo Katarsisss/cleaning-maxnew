@@ -13172,6 +13172,11 @@ align-items: center;
 	justify-content: space-between;
 }*/
 
+.parallax-row{
+	display: flex;
+	justify-content: center;
+}
+
 .parallax-content {
     background: url(../../uploads/2019/02/1.jpg) no-repeat center fixed;
     background-size: cover;
