@@ -13347,6 +13347,11 @@ align-items: center;
 	background: url(../../uploads/2019/02/cleaning-proizvodstvo.jpg) no-repeat;
 }
 
+.header-block-single .maxwidth-theme{
+	display: flex;
+	justify-content: flex-end;
+}
+
 
 .header-block-text{
     width: 40%;
