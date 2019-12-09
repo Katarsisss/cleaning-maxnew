@@ -13238,3 +13238,10 @@ align-items: center;
     display: flex;
     justify-content: center;
 }
+
+
+.cleaning-order i{
+	background: white;
+	padding: 50px;
+	border-radius: 50%;
+}
