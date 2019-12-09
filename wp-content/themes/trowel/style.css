@@ -13344,3 +13344,12 @@ align-items: center;
 .header-block-single{
 	background: url(../../uploads/2019/02/cleaning-proizvodstvo.jpg) no-repeat;
 }
+
+
+.header-block-text{
+    width: 40%;
+}
+
+.header-block-text p{
+    font-size: 40px;
+}
