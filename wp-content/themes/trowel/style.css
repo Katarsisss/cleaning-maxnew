@@ -13241,10 +13241,10 @@ align-items: center;
 
 
 .cleaning-order i{
-	background: black;
-	padding: 50px;
+	background: white;
+	padding: 40px;
 	border-radius: 50%;
-	font-size: 20px;
+	font-size: 30px;
 	color: #28b2ff;
 }
 
