@@ -13192,6 +13192,14 @@ align-items: center;
     display: inline-block;
 }
 
+.parallax-content .col-md-8{
+    float: left;
+}
+
+.parallax-content .col-md-4{
+    float: right;
+}
+
 .parallax-content h4 {
     color: #fff;
     font-size: 30px;
