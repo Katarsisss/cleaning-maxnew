@@ -13268,4 +13268,11 @@ align-items: center;
 .cleaning-order{
    background: url(../../uploads/2019/02/order-img.jpg) no-repeat;
 }
+
+.cleaning-order h2{
+	font-size: 26px;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 700;
+    text-align: center;
 }
