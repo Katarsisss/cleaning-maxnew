@@ -13236,7 +13236,7 @@ align-items: center;
 
 .cleaning-order{
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     padding: 80px 0;
 }
 
