@@ -13208,7 +13208,6 @@ align-items: center;
     padding: 10px 80px;
     margin: 15px 50px 15px 0;
     font-size: 16px;
-    display: flex;
 }
 
 .btn.btn-primary:hover {
