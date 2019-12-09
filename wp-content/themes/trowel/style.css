@@ -13234,3 +13234,7 @@ align-items: center;
     background-color: #28b2ff;
 }
 
+.cleaning-order{
+    display: flex;
+    justify-content: center;
+}
