@@ -13245,3 +13245,7 @@ align-items: center;
 	padding: 50px;
 	border-radius: 50%;
 }
+
+.testimonials_mask{
+    background: url(../../uploads/2019/02/home_three_1.jpg) no-repeat;
+}
