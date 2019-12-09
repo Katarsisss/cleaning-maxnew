@@ -13291,3 +13291,8 @@ align-items: center;
 	padding-bottom: 40px;
 }
 
+.order-circle{
+	display: inline-block;
+	width: 120px;
+}
+
