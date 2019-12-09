@@ -13207,7 +13207,7 @@ align-items: center;
 }
 
 .btn.btn-primary{
-    padding: 11px 25px;
+    padding: 11px 55px;
     color: #fff;
     margin-top: 23px;
     transition: all 300ms ease-in-out;
@@ -13216,14 +13216,10 @@ align-items: center;
 }
 
 .btn.btn-primary:hover {
-    left: 20px;
-    right: auto;
-    bottom: 20px;
-    top: auto;
-    border-color: #fff;
-    background: #fff !important;
-    color: #3498DB  !important;
-    border: 2px solid #fff;
+    padding: 11px 55px;
+    color: #fff;
+    margin-top: 23px;
+    transition: all 300ms ease-in-out;
     border-radius: 3px;
-    padding: 10px 80px;
+    background-color: #28b2ff;
 }
