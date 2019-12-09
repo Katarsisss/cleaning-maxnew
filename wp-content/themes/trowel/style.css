@@ -13276,7 +13276,6 @@ align-items: center;
     text-transform: uppercase;
     font-weight: 700;
     text-align: center;
-    padding-bottom: 40px;
 }
 
 .cleaning-order .services_separator{
@@ -13285,5 +13284,10 @@ align-items: center;
     background-color: #585858;
     margin: 15px auto 15px auto;
     position: relative;
+}
+
+
+.cleaning-order .wrapper{
+	padding-bottom: 40px;
 }
 
