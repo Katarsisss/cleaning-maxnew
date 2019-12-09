@@ -13246,6 +13246,7 @@ align-items: center;
 	border-radius: 50%;
 	font-size: 30px;
 	color: #28b2ff;
+	box-shadow: 0 0 10px rgba(0,0,0,0.5);
 }
 
 
