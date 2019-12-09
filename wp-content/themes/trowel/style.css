@@ -13235,6 +13235,3 @@ align-items: center;
     background-color: #28b2ff;
 }
 
-.btn.btn-primary::before{
-    margin-top: 23px;
-}
