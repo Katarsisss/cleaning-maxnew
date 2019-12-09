@@ -13178,7 +13178,7 @@ align-items: center;
     padding: 55px 0;
     position: relative;
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
 }
 
 
