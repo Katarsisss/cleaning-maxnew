@@ -13241,9 +13241,10 @@ align-items: center;
 
 
 .cleaning-order i{
-	background: white;
+	background: black;
 	padding: 50px;
 	border-radius: 50%;
+	font-size: 20px;
 }
 
 .testimonials_box{
