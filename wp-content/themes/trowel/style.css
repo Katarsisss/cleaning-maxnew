@@ -13306,6 +13306,9 @@ align-items: center;
 
 .advantages-icon p{
     text-align: center;
+}
+
+.advantages-icon .advantages-text{
     font-weight: bold;
 }
 
