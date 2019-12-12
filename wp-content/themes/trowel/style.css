@@ -13294,6 +13294,7 @@ align-items: center;
 .order-circle{
 	display: inline-block;
 	width: 130px;
+	text-align: center;
 }
 
 
@@ -13305,6 +13306,7 @@ align-items: center;
 
 .advantages-icon p{
     text-align: center;
+    font-weight: bold;
 }
 
 .advantages-single h2{
