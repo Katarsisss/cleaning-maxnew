@@ -13302,6 +13302,12 @@ align-items: center;
     justify-content: space-between;
 }
 
+.order-circle p {
+    text-align: center;
+    padding-bottom: 20px;
+    font-weight: bold;
+}
+
 
 .advantages-icon{
 	display: inline-block;
