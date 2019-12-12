@@ -13299,7 +13299,12 @@ align-items: center;
 
 .advantages-icon{
 	display: inline-block;
-	width: 130px;
+	width: 280px;
+    text-align: center;
+}
+
+.advantages-icon p{
+    text-align: center;
 }
 
 .advantages-single h2{
@@ -13341,7 +13346,7 @@ align-items: center;
 .advantages-block{
     display: flex;
     justify-content: space-between;
-    width: 1000px;
+    width: 800px;
 }
 
 
