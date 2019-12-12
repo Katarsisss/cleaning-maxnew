@@ -13297,6 +13297,11 @@ align-items: center;
 	text-align: center;
 }
 
+.order-block{
+	display: flex;
+    justify-content: space-between;
+}
+
 
 .advantages-icon{
 	display: inline-block;
@@ -13351,7 +13356,6 @@ align-items: center;
 .advantages-block{
     display: flex;
     justify-content: space-between;
-    width: 800px;
 }
 
 
