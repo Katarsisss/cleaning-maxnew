@@ -13338,6 +13338,12 @@ align-items: center;
 	
 }
 
+.advantages-block{
+    display: flex;
+    justify-content: space-between;
+    width: 1000px;
+}
+
 
 .header-block-single{
 	display: flex;
