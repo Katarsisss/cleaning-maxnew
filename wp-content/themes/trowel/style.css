@@ -13247,6 +13247,7 @@ align-items: center;
 	border-radius: 50%;
 	font-size: 30px;
 	color: #28b2ff;
+	width: 110px;
 	box-shadow: 0 0 10px rgba(0,0,0,0.12);
 }
 
@@ -13308,9 +13309,6 @@ align-items: center;
     font-weight: bold;
 }
 
-.order-circle div{
-	width: 38px;
-}
 
 .advantages-icon{
 	display: inline-block;
