@@ -13167,10 +13167,10 @@ align-items: center;
     height: 100%;
 }
 
-/*.maxwidth-theme{
-	display: flex;
-	justify-content: space-between;
-}*/
+.maxwidth-theme{
+	width: 1000px;
+    text-align: center;
+}
 
 .parallax-row{
 	display: flex;
