@@ -13308,6 +13308,9 @@ align-items: center;
     font-weight: bold;
 }
 
+.order-circle span{
+	width: 38px;
+}
 
 .advantages-icon{
 	display: inline-block;
