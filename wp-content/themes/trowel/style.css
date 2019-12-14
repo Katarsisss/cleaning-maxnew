@@ -13330,6 +13330,7 @@ align-items: center;
     text-transform: uppercase;
     font-weight: 700;
     text-align: center;
+    clear: both;
 }
 
 /*.fa-phone-volume{
@@ -13434,6 +13435,10 @@ align-items: center;
     border-radius: 50%;
 } 
 
+.cleaning-img-top{
+	width: 300px;
+	height: 300px;
+}
 
 
 
