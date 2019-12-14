@@ -13416,6 +13416,12 @@ align-items: center;
     font-size: 30px;
 }
 
+
+.cleaning-info-block{
+	margin: 0 auto;
+
+}
+
 .cleaning-top{
     height: 350px;
 }
