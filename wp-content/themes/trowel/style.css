@@ -13427,16 +13427,18 @@ align-items: center;
 }
 
 
-.cleaning-info img{
-    float: left;
-    height: 300px;
-    width: 300px;
-}
+
 
 .cleaning-text{
    float: right;
 }
 
+.cleaning-info-img{
+   float: left;
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+} 
 
 
 
