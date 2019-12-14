@@ -13419,10 +13419,12 @@ align-items: center;
 
 .cleaning-info{
     display: inline-block;
+    float: left;
 }
 
 .cleaning-info-img{
     display: inline-block;
+
 }
 
 
