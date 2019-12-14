@@ -13418,9 +13418,8 @@ align-items: center;
 }
 
 
-.cleaning-info-block{
-	display: flex;
-
+.cleaning-info-block {
+    display: flex;
 }
 
 .cleaning-top{
@@ -13434,8 +13433,10 @@ align-items: center;
     border-radius: 50%;
 } 
 
-.cleaning-img-top{
-
+.cleaning-img-top {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 
