@@ -13418,8 +13418,9 @@ align-items: center;
 }
 
 
-.cleaning-info-block {
-    display: flex;
+.cleaning-info-block{
+	display: flex;
+
 }
 
 .cleaning-top{
@@ -13427,16 +13428,15 @@ align-items: center;
 }
 
 .cleaning-info-img{
+   float: left;
     display: block;
     max-width: 100%;
     height: auto;
     border-radius: 50%;
 } 
 
-.cleaning-img-top {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.cleaning-img-top{
+   display: flex;
 }
 
 
