@@ -13423,19 +13423,18 @@ align-items: center;
 }
 
 .cleaning-top{
-	display: inline-block;
     height: 300px;
 }
 
-.cleaning-info{
-    display: inline-block;
-    float: right;
-}
 
 .cleaning-info img{
     float: left;
     height: 300px;
     width: 300px;
+}
+
+.cleaning-text{
+   float: right;
 }
 
 
