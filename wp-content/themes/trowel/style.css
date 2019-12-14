@@ -13426,6 +13426,7 @@ align-items: center;
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
+    margin-top: 40px;
 }
 
 @media (min-width: 992px){
@@ -13493,9 +13494,9 @@ align-items: center;
     margin-left: auto;
 }
 
-.pt-5, .py-5 {
+/*.pt-5, .py-5 {
     padding-top: 3rem!important;
-}
+}*/
 
 .pt-4, .py-4 {
     padding-top: 1.5rem!important;
@@ -13548,6 +13549,10 @@ align-items: center;
 .lead {
     font-size: 1.4rem;
     font-weight: 400;
+}
+
+.row p{
+	margin-top: 10px;
 }
 
 
