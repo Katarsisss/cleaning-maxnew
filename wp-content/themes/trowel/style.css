@@ -13428,7 +13428,6 @@ align-items: center;
 }
 
 .cleaning-info-img{
-   float: left;
     display: block;
     max-width: 100%;
     height: auto;
@@ -13436,8 +13435,7 @@ align-items: center;
 } 
 
 .cleaning-img-top{
-	width: 300px;
-	height: 300px;
+
 }
 
 
