@@ -13423,7 +13423,8 @@ align-items: center;
 }
 
 .cleaning-top{
-    height: 350px;
+	display: inline-block;
+    height: 300px;
 }
 
 .cleaning-info{
@@ -13433,7 +13434,8 @@ align-items: center;
 
 .cleaning-info-img{
     display: inline-block;
-
+    height: 300px;
+    width: 300px;
 }
 
 
