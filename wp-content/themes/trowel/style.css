@@ -13438,6 +13438,7 @@ align-items: center;
 .cleaning-img-top{
 	width: 300px;
 	height: 300px;
+	float: left;
 }
 
 
