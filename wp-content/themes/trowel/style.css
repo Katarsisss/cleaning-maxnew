@@ -13428,8 +13428,9 @@ align-items: center;
 
 .cleaning-info-img{
    float: left;
-    height: 300px;
-    width: 300px;
+    display: block;
+    max-width: 100%;
+    height: auto;
     border-radius: 50%;
 } 
 
