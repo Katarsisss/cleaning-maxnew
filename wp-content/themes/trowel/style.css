@@ -13432,11 +13432,10 @@ align-items: center;
     float: right;
 }
 
-.cleaning-info-img{
-    display: inline-block;
-    height: 300px;
-    width: 300px;
+.cleaning-info img{
+    float: left;
 }
+
 
 
 
