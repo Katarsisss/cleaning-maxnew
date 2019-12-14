@@ -13426,7 +13426,7 @@ align-items: center;
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
-    margin-top: 40px;
+    padding-top: 80px;
 }
 
 @media (min-width: 992px){
