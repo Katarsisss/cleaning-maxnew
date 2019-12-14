@@ -13430,6 +13430,10 @@ align-items: center;
     background: #28b2ff14;
 }
 
+.fdb-block img {
+    border-radius: 10px;
+}
+
 @media (min-width: 992px){
 .mr-lg-auto, .mx-lg-auto {
     margin-right: auto!important;
