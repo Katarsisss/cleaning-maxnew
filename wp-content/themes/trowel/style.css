@@ -13481,6 +13481,12 @@ align-items: center;
     padding-top: 1.5rem!important;
 }
 
+@media (min-width: 576px){}
+.pt-sm-0, .py-sm-0 {
+    padding-top: 0!important;
+}
+}
+
 .col-12 {
     -ms-flex: 0 0 100%;
     flex: 0 0 100%;
