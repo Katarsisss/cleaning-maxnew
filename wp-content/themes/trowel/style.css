@@ -13445,9 +13445,9 @@ align-items: center;
 }
 
 @media (min-width: 768px){
-.container {
+/*.container {
     max-width: 720px;
-}
+}*/
 
 /*.col-md-8 {
     -ms-flex: 0 0 66.666667%;
@@ -13458,9 +13458,9 @@ align-items: center;
 
 
 @media (min-width: 576px){
-.container {
+/*.container {
     max-width: 540px;
-}
+}*/
 
 .ml-sm-auto, .mx-sm-auto {
      margin-left: auto!important; 
