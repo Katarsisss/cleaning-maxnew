@@ -13686,3 +13686,7 @@ align-items: center;
 .services-block-icon{
 	display: flex;
 }
+
+.ts-title{
+   margin-bottom: 20px;
+}
