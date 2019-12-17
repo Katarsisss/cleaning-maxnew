@@ -13606,6 +13606,7 @@ align-items: center;
     position: relative;
     background: #fff;
     z-index: 2;
+    margin-bottom: 10px;
 }
 
 .single-intro-text h3 {
