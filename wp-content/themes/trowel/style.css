@@ -13585,6 +13585,10 @@ align-items: center;
     margin-bottom: 40px;
 }
 
+h2.section-title {
+    font-weight: 600;
+}
+
 .services-block-text-2 {
     margin-bottom: 80px;
 }
