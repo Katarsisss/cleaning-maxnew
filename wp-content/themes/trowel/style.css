@@ -13673,6 +13673,11 @@ h2.section-title {
     padding: 18px 45px 18px 45px;
 }
 
+.elementor-button:hover {
+    fill: #fff;
+    color: #fff;
+}
+
 
 .elementor-element {
     width: 33%;
