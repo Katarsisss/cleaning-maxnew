@@ -13681,6 +13681,7 @@ align-items: center;
 
 .elementor-element-populated {
     padding: 0 15px 0 15px;
+    display: flex;
 }
 
 
