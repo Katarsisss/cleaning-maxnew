@@ -13676,6 +13676,7 @@ align-items: center;
     display: -webkit-flex; 
     display: -ms-flexbox;
     display: flex;
+    justify-content: center;
 }
 
 .elementor-element-populated {
