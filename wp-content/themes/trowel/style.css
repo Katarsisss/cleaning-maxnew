@@ -13583,7 +13583,11 @@ align-items: center;
     color: #3b1d82;
     font-size: 36px;
     font-weight: 800;
-    margin-bottom: 30px;
+    margin-bottom: 40px;
+}
+
+.services-block-text-2 {
+    margin-bottom: 80px;
 }
 
 .services-block-text-1 svg {
