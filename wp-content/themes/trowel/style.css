@@ -13623,7 +13623,7 @@ align-items: center;
 
 
 .single-intro-text .count-number{
-    background: #ff007a;
+    background: #28b2ff;
     position: absolute;
     right: -55px;
     bottom: -55px;
@@ -13655,7 +13655,7 @@ align-items: center;
     text-transform: uppercase;
     fill: #fff;
     color: #fff;
-    background-color: #ff007a;
+    background-color: #28b2ff;
     border-radius: 3px 3px 3px 3px;
     padding: 18px 45px 18px 45px;
 }
@@ -13679,6 +13679,8 @@ align-items: center;
     display: flex;
 }
 
-
+.elementor-element-populated {
+    padding: 0 15px 0 15px;
+}
 
 
