@@ -13587,10 +13587,12 @@ align-items: center;
 }
 
 .services-block-text-1 svg {
-    fill: #3b1d82;
+    fill: #28b2ff;
 }
 
-
+.section-title{
+   color: #28b2ff;
+}
 
 .elementor-section {
     max-width: 1640px;
