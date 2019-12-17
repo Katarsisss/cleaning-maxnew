@@ -13639,6 +13639,14 @@ align-items: center;
     padding: 25px 30px;
 }
 
+.single-intro-text i {
+    position: absolute;
+    right: -10px;
+    top: 20px;
+    font-size: 55px;
+    color: #bababa;
+}
+
 
 
 
