@@ -13647,6 +13647,17 @@ align-items: center;
     color: #bababa;
 }
 
+.elementor-button {
+    font-size: 16px;
+    font-weight: 700;
+    text-transform: uppercase;
+    fill: #fff;
+    color: #fff;
+    background-color: #ff007a;
+    border-radius: 3px 3px 3px 3px;
+    padding: 18px 45px 18px 45px;
+}
+
 
 
 
