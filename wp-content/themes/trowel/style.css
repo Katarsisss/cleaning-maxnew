@@ -13586,6 +13586,13 @@ align-items: center;
     max-width: 1140px;
 }
 
+.elementor-row {
+    width: 100%;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+}
 
 
 
