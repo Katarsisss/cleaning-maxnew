@@ -13567,33 +13567,24 @@ align-items: center;
 
 
 
-.elementor-section .elementor-container {
-    display: -webkit-box;
-    display: -webkit-flex;
-    display: -ms-flexbox;
-    display: flex;
-    margin-right: auto;
-    margin-left: auto;
-    position: relative;
+
+
+.services-block-text{
+    margin: 0 0 0 0;
+    padding: 20px 50px 0 15px;
 }
 
-.elementor-10 .elementor-element.elementor-element-c701876 {
-    transition: background 0.3s,border 0.3s,border-radius 0.3s,box-shadow 0.3s;
-    padding: 100px 0 100px 0;
+.services-block-text-1{
+    color: #3b1d82;
+    font-size: 36px;
+    font-weight: 800;
 }
 
-.single-intro-text {
-    padding: 40px 45px 40px 40px;
-    -webkit-box-shadow: 0 20px 25px 0 rgba(0,0,0,.08);
-    box-shadow: 0 20px 25px 0 rgba(0,0,0,.08);
-    border-radius: 5px;
-    -webkit-border-radius: 5px;
-    -ms-border-radius: 5px;
-    overflow: hidden;
-    position: relative;
-    background: #fff;
-    z-index: 2;
 
+
+.elementor-section {
+    max-width: 1140px;
+}
 
 
 
