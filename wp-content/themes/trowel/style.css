@@ -13671,6 +13671,14 @@ align-items: center;
     padding: 20px 50px 0 15px;
 }
 
+.elementor-row {
+    width: 100%; 
+    display: -webkit-box; 
+    display: -webkit-flex; 
+    display: -ms-flexbox;
+    display: flex;
+}
+
 
 
 
