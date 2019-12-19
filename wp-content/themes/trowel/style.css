@@ -13748,8 +13748,8 @@ label:hover {
 }
 
 input[type="checkbox"] {
-	position: absolute;
-	left: -1000px;
+	/*position: absolute;
+	left: -1000px;*/
 }
 
 .tick {
