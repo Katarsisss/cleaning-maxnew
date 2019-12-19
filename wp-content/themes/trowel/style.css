@@ -13754,6 +13754,34 @@ h2.section-title {
 	border: 0;
 }
 
+.field .dop_tmpl+label {
+    position: relative;
+    line-height: 24px;
+    display: block;
+    padding-left: 32px;
+}
+
+
+.field .dop_tmpl+label:before {
+    content: "";
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+
+.field input[type=checkbox]+label:before {
+    width: 24px;
+    height: 24px;
+    font-size: 18px;
+    font-weight: 400;
+    border-radius: 4px;
+    line-height: 1;
+    border: 2px solid #dbe3ef;
+    background: #fff;
+}
+
 .field input[type=checkbox]:checked+label:after {
     border: 2px solid #6598ff;
     color: #fff;
