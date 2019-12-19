@@ -13731,7 +13731,7 @@ h2.section-title {
 
 
 label {
-	display: inline-block;
+	
 	margin: 0 calc(var(--checkbox-size) * 0.25);
 	width: var(--checkbox-size);
 	height: var(--checkbox-size);
