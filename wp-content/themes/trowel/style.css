@@ -13779,7 +13779,7 @@ h2.section-title {
 }
 
 .container ul li:hover label{
-	color: #FFFFFF;
+	color: #FFFFFF !important;
 }
 
 .container ul li .check{
@@ -13801,27 +13801,27 @@ h2.section-title {
 }
 
 .container ul li .check::before {
-  display: block;
-  position: absolute;
-	content: '';
-  border-radius: 100%;
-  height: 15px;
-  width: 15px;
-  top: 5px;
-	left: 5px;
-  margin: auto;
-	transition: background 0.25s linear;
-	-webkit-transition: background 0.25s linear;
+  display: block !important;
+  position: absolute !important;
+	content: '' !important;
+  border-radius: 100% !important;
+  height: 15px !important;
+  width: 15px !important;
+  top: 5px !important;
+	left: 5px !important;
+  margin: auto !important;
+	transition: background 0.25s linear !important;
+	-webkit-transition: background 0.25s linear !important;
 }
 
 .container input[type=radio]:checked ~ .check {
-  border: 5px solid #0DFF92;
+  border: 5px solid #0DFF92 !important;
 }
 
 .container input[type=radio]:checked ~ .check::before{
-  background: #0DFF92;
+  background: #0DFF92 !important;
 }
 
 .container input[type=radio]:checked ~ label{
-  color: #0DFF92;
+  color: #0DFF92 !important;
 }
