@@ -13753,3 +13753,20 @@ h2.section-title {
 .field-select input, .field-select select{
 	border: 0;
 }
+
+.field input[type=checkbox]:checked+label:after {
+    border: 2px solid #6598ff;
+    color: #fff;
+    background-color: #6598ff;
+}
+
+.field input[type=checkbox]+label:after,  .field input[type=checkbox]+label:before {
+    width: 24px;
+    height: 24px;
+    font-size: 18px;
+    font-weight: 400;
+    border-radius: 4px;
+    line-height: 1;
+    border: 2px solid #dbe3ef;
+    background: #fff;
+}
