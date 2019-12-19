@@ -13797,7 +13797,7 @@ h2.section-title {
 }
 
 .container ul li:hover .check {
-  border: 5px solid #FFFFFF;
+  border: 5px solid #AAAAAA;
 }
 
 .container ul li .check::before {
