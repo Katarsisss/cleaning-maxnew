@@ -7597,6 +7597,8 @@ section.partners_section_three .partners_list .partners_item:hover {
 .vbox-overlay .vbox-inline {
 	border-radius: 10px;
 	position: relative;
+	height: 1504px !important;
+	overflow: hidden;
 }
 
 .vbox-overlay .vbox-inline .popup_one_content_wrapper {
