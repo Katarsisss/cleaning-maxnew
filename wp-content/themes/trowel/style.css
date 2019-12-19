@@ -13814,14 +13814,14 @@ h2.section-title {
 	-webkit-transition: background 0.25s linear !important;
 }
 
-.container input[type=radio]:checked ~ .check {
+input[type=radio]:checked ~ .check {
   border: 5px solid #0DFF92 !important;
 }
 
-.container input[type=radio]:checked ~ .check::before{
+input[type=radio]:checked ~ .check::before{
   background: #0DFF92 !important;
 }
 
-.container input[type=radio]:checked ~ label{
+input[type=radio]:checked ~ label{
   color: #0DFF92 !important;
 }
