@@ -13734,6 +13734,15 @@ h2.section-title {
     background-color: #fff;
 }
 
+
+.field .dop_tmpl+label {
+    position: relative;
+    line-height: 24px;
+    display: block;
+    padding-left: 32px;
+}
+
+
 .option-label {
     position: relative;
     line-height: 24px;
