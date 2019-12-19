@@ -13749,3 +13749,7 @@ h2.section-title {
     display: block;
     padding-left: 32px;
 }
+
+.field-select input, .field-select select{
+	border: 0;
+}
