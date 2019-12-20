@@ -573,29 +573,43 @@
 
 
 
-                        <div id="feedback-form">
-  <h2 class="header">Register Today</h2>
-  <div class="pop-overlay popup-overlay">
-  <div id="popup-window" class="popup-window popWindow subscribe_window">
-    <form>
-      <input type="text" name="email" placeholder="Email"></input>
-      <input type="text" name="name" placeholder="Name"></input>
-      <label for="feedback-notify">Remind me about this event via SMS</label>
-      <input type="checkbox" id="feedback-notify" name="notify">
-      <input type="text" id="feedback-phone" name="phone" placeholder="Phone number"></input>
-      <button type="submit">Register</button>
-      <div class="close-btn">&times;</div>
-    </form>
+                        <div class="container">
+  <div class="row">
+    <div class="col-md-8 col-md-offset-2">
+      <div class="pop-overlay popup-overlay"><!-- //оверлей - отображение формы на затемненном фоне -->
+ 
+        <div id="popup-window" class="popup-window popWindow subscribe_window"><!-- //основное окно формы Подписки -->
+          <p class="subcsribe-text">Оставьте свои контактные данные для связи</p>
+          <form class="subscribe-form" autocomplete="off">
+            <div>
+              <input type="text" id="name-subscribe" name="Name" placeholder=" " required>
+              <label for="name-subscribe">Имя <span>*</span></label>
+            </div>
+            <div>
+              <input type="tel" id="phone" name="user_tel" placeholder=" " required>
+              <label for="phone">Телефон <span>*</span></label>
+            </div>
+            <div class="aligncenter">
+              <button type="submit" class="btn"><i class="fa fa-check" aria-hidden="true"></i> Отправить</button>
+            </div>
+            <!-- <div class="req-fields"><sup>*</sup> required fields</div> -->
+          </form>
+          <div id="popClose" class="close-btn popup-close">&times;</div>
+        </div><!-- /subscribe_window -->
+ 
+        <div class="popWindow thank_you_window"><!-- //благодарственное окно после успешной отправки формы -->
+          <p class="thank_you_title">Thank you for subscribing!</p>
+          <p class="thank_you_body">We've sent some useful tips to your email. Go ahead and check them now!</p>
+          <div class="close-btn">&times;</div>
+        </div>
+ 
+      </div><!-- /popup-overlay -->
+ 
+    </div>
   </div>
 </div>
-</div>
-                        <script>
-            var dialog = $("#feedback-form").dialog({autoOpen: false});
-            $("input[type=button]").click(function ()
-                {
-                dialog.dialog( "open" );
-                });
-        </script>
+
+                       
 
                         <script type='text/javascript' src='../../wp-content/themes/trowel/js/libs/jquery-2.1.4.min.js?ver=5.0.7'></script>
                         <script type='text/javascript' src='https://maps.googleapis.com/maps/api/js?key=AIzaSyCCjpg9yzIGzoH-4EHM10yFClHsodPQcC0&ver=5.0.7'></script>
