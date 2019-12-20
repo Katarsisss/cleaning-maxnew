@@ -171,7 +171,7 @@
                         <p>на предприятии</p>
                         <p class="blue-text">от 3000 рублей</p>
                         <div class="header-block-btn">
-                            <a href="#" class="btn btn-lg btn-primary-header pull-left">Заказать <i class="icon-arrow-right"></i></a>
+                            <a id="popup" href="javascript:void(0);" class="btn btn-lg btn-primary-header pull-left">Заказать <i class="icon-arrow-right"></i></a>
                         </div>
                     </div>
                 </div>
@@ -575,7 +575,7 @@
 
                         <div id="feedback-form">
   <h2 class="header">Register Today</h2>
-  <div>
+  <div id="popup-window" class="popup-window popWindow subscribe_window">
     <form>
       <input type="text" name="email" placeholder="Email"></input>
       <input type="text" name="name" placeholder="Name"></input>
@@ -583,10 +583,18 @@
       <input type="checkbox" id="feedback-notify" name="notify">
       <input type="text" id="feedback-phone" name="phone" placeholder="Phone number"></input>
       <button type="submit">Register</button>
+      <div class="close-btn">&times;</div>
     </form>
   </div>
 </div>
-                        
+                        <script>
+            var dialog = $("#feedback-form").dialog({autoOpen: false});
+            $("input[type=button]").click(function ()
+                {
+                dialog.dialog( "open" );
+                });
+        </script>
+
                         <script type='text/javascript' src='../../wp-content/themes/trowel/js/libs/jquery-2.1.4.min.js?ver=5.0.7'></script>
                         <script type='text/javascript' src='https://maps.googleapis.com/maps/api/js?key=AIzaSyCCjpg9yzIGzoH-4EHM10yFClHsodPQcC0&ver=5.0.7'></script>
                         <script type='text/javascript' src='../../wp-content/themes/trowel/js/libs/gmap3.min.js?ver=3.0.0'></script>
@@ -648,6 +656,7 @@
                         var trowelScreenReaderText = {"expand":"Expand child menu","collapse":"Collapse child menu"};
                         </script>
                         <script type='text/javascript' src='../../wp-content/themes/trowel/js/navigation.js?ver=3.0.0'></script>
+                        <script type='text/javascript' src='../../wp-content/themes/trowel/js/forms.js'></script>
                         <script type='text/javascript' src='../../wp-content/themes/trowel/js/libs/parallax.min.js?ver=3.0.0'></script>
                         <script type='text/javascript' src='../../wp-content/themes/trowel/js/libs/slick.min.js?ver=3.0.0'></script>
                         <script type='text/javascript' src='../../wp-content/themes/trowel/js/libs/jquery.event.move.js?ver=3.0.0'></script>
