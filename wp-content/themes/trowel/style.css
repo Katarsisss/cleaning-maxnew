@@ -13995,6 +13995,7 @@ input[type="checkbox"]:focus + label {
   background: #096ea7;
   color: #fff;
   border-radius: 4px;
+  height: 45px;
 }
 .btn {
   color: #28b2ff;
@@ -14012,8 +14013,8 @@ input[type="checkbox"]:focus + label {
   transition: 0.4s;
 }
 .btn:hover, .btn:focus {
-  background-color: #ffba00;
-  color: #fff;
+  background-color: #fff;
+  color: #28b2ff;
   text-decoration: none;
 }
 .subscribe-form .btn {
