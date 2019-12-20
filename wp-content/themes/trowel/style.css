@@ -14029,7 +14029,7 @@ input[type="checkbox"]:focus + label {
   border-radius: 4px;
 }
 .subscribe-form .btn:hover {
-  background-color: #e6a700;
+  background-color: #fff;
 }
 .subscribe-form .btn i {
   font-size: 28px;
