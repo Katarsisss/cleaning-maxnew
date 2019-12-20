@@ -14044,7 +14044,7 @@ input[type="checkbox"]:focus + label {
   transition: 0.28s;
 }
 .subscribe-form label span {
-  color: #ffba00;
+  color: #fff;
 }
 .subscribe-form input:focus + label {
   left: -62px;
