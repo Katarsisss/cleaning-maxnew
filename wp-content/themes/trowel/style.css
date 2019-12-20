@@ -13921,7 +13921,7 @@ input[type="checkbox"]:focus + label {
   top: 0;
   right: 0;
   bottom: 0;
-  background: rgba(255, 186, 0, 0.7);
+  background: rgba(255, 255, 254, 0.7);
   z-index: 100;
 }
  
@@ -13955,7 +13955,7 @@ input[type="checkbox"]:focus + label {
   font-size: 40px;
   line-height: 20px;
   cursor: pointer;
-  color: #999;
+  color: #fff;
   padding: 10px;
 }
 /* Просто текст */
@@ -13992,17 +13992,17 @@ input[type="checkbox"]:focus + label {
   padding: 5px 20px;
   margin-bottom: 20px;
   outline: none;
-  background: #2e2e2b;
+  background: #096ea7;
   color: #fff;
   border-radius: 4px;
 }
 .btn {
-  color: #161613;
-  background-color: #ffba00;
+  color: #28b2ff;
+  background-color: #ffffff;
   padding: 10px 50px;
   text-align: center;
   font-size: 13px;
-  border: 1px solid #ffba00;
+  /*border: 1px solid #ffba00;*/
   box-shadow: none;
   display: inline-block;
   text-transform: uppercase;
